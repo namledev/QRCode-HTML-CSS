@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*!
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
+ * Licensed under MIT
+ */
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-gray: #6c757d;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+    --bs-border-color: #dee2e6;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box; /* Ensure that padding and borders are included in element's total width and height */
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 .5rem;
+    font-weight: 500;
+}
+
+/* Text utility classes */
+.text-start { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-end { text-align: right !important; }
+
+/* Margin and Padding Classes */
+.m-0 { margin: 0 !important; }
+.p-0 { padding: 0 !important; }
+.mx-1 { margin-left: .25rem !important; margin-right: .25rem !important; }
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: .375rem .75rem;
+    color: #fff;
+    background-color: var(--bs-blue);
+    border: none;
+    border-radius: .375rem;
+    transition: background-color .15s;
+}
+.btn:hover {
+    background-color: #0a58ca; /* Darker blue on hover */
+}
+
+/* Media Queries */
+@media (min-width: 576px) {
+    .d-sm-none { display: none !important; }
+    .d-sm-block { display: block !important; }
+}
+
+/* More responsive and utility classes can be added here */
+
+/*# sourceMappingURL=bootstrap.min.css.map */
